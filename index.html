@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0071b47268.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="fileArea">
+      <div class="droppable-area">
+        <p id="file_name">PNG, JPG, GIF or WEBP. Max 200mb.</p>
+        <button id="file_btn" type="button">
+          <i class="fa-solid fa-upload" style="margin-right: 5px"></i> Browse
+        </button>
+        <input title="files" type="file" id="file_input" accept="image/*" />
+      </div>
+      <div class="preview-area">
+        <p id="preview_name">Preview area</p>
+        <i style="font-size: 64px" class="fa-solid fa-file-image"></i>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
